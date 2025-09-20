@@ -1,17 +1,20 @@
 # note-repo
 
 
-le probleme persiste order table s'affiche toujours pas j'arrive toujours pas a comprend le probleme quelle solution radical pour sortir de ce probleme selon toi 
-
-n'hesite pas si tu n'a pas une certaine informaiton sur certaine implementation faite dans ma codebase a faire des recherche dans la code base afin de retrouver des information et avoir plus de context par exemple a faire des recherche de terme ou ficher  cible et les lire pour meiux comprend et faire des suggestion de code tres fin et precise
+ok parfait tout focntionne parfaitement mais je voudrais quelque ajsutement par exmple dnas le dashboard bord il ya 4 premiere tatcard qui afficher les info des utilisateur des commande etc je voudrais que tu ajuste leur taillement afin quil soit commen les stat crad que lon trouve dans les autre page commen dans affiliate screen ou articles screen ou services screen tu peut les lire ( afiliate state card ) pour voir et ten instpirer pour ajuster ces stat card dans sdashboard je vait ajsuter certaien fichier en context 
 
 
-[User] Parsing user data: \0c532348-1aad-43e7-9483-3144c4297c46
-js_primitives.dart:28 [OrdersScreen] Data loaded successfully. Orders count: 10
-js_primitives.dart:28 [OrdersScreen] isLoading: false
-js_primitives.dart:28 [OrdersScreen] hasError: false
-js_primitives.dart:28 [OrdersScreen] orders.length: 10
-js_primitives.dart:28 [OrdersScreen] isOrderIdSearchActive: false
-js_primitives.dart:28 [PaginationControls] currentPage: 1, totalPages: 16, itemsPerPage: 10, itemCount: 10, totalItems: 160, start: 1, end: 10
-js_primitives.dart:28 Another exception was thrown: RenderViewport does not support returning intrinsic dimensions.
-78js_primitives.dart:28 Another exception was thrown: Invalid argument: null
+ensuite une autre probleme est quequadn par exemple je charge mon application et que je clique directement sur la page articles screen je voit que les donnee sont bien charger et s'affiche correctmeent cependant quand je passe par la page categories ou autre page puis je navigue vers la page articles il ya des erreure en blouble et mon application ne fonctionne plus corrction il faut la redemmarer pour reset les chose c'estr quoi le probeme selon toi et comment le corriger en console voila ce qui s'affiche en boucle dcependnant tu comprend 
+
+
+sdk/lib/_internal/js_dev_runtime/patch/js_allow_interop_patch.dart 212:27  _callDartFunctionFast1
+
+js_primitives.dart:28 Context: while handling a pointer data packet
+js_primitives.dart:28 Library: gestures library
+js_primitives.dart:28 ===========================
+
+js_primitives.dart:28 Another exception was thrown: Cannot hit test a render box that has never been laid out.
+js_primitives.dart:28 
+=== GlobalKey Error Details ===
+js_primitives.dart:28 Location: dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/errors.dart 288:3     throw_
+packages/flutter/src/rendering/box.dart 2729:11                                 <fn>
